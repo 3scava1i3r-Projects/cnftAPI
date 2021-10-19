@@ -100,54 +100,8 @@ def makeImposter():
         # random number is 7 or less >> black jettpack
             jc = (0, 0, 0) 
         
-        
 
         
-
-
-        Angel_Imposter = [
-
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, yl, yl, yl, yl, yl, yl, yl, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, yl, bg, bg, bg, bg, bg, bg, bg, yl, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],        
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, yl, bg, bg, bg, bg, bg, bg, bg, yl, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, yl, yl, yl, yl, yl, yl, yl, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],        
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, ol, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, hd, hd, hd, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, ol, hd, hd, hd, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, ol, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, ol, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, ol, ol, bg, ol, hd, hd, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, bg, bg, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg]
-
-
-
-        ]
 
         Basic_Imposter = [
 
@@ -190,167 +144,76 @@ def makeImposter():
             [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg]
 
         
-        ]    
-
-
-
-        Devil_Imposter = [
-
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, rd, bg, bg, bg, rd, rd, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, rd, rd, bg, bg, bg, rd, rd, rd, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, rd, rd, rd, bg, bg, bg, rd, rd, rd, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, rd, rd, rd, bg, bg, bg, rd, rd, rd, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, rd, rd, ol, ol, ol, ol, ol, ol, rd, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, rd, ol, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, ol, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, ol, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, ol, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, ol, ol, bg, ol, hd, hd, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, bg, bg, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg]
-
-        
-        ]
-
-
-        CrazyGoggle_Imposter = [
-
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, ol, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, ol, dk, dk, dk, dk, dk, dk, dk, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, bg, bg, bg, ol, dk, dk, dk, dk, dk, dk, dk, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, ol, bg, bg, bg, ol, dk, dk, dk, dk, dk, dk, dk, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, ol, dk, dk, dk, dk, dk, dk, dk, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, ol, dk, dk, dk, dk, dk, dk, dk, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, ol, dk, dk, dk, dk, dk, dk, dk, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, ol, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, ol, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, ol, ol, bg, ol, hd, hd, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, bg, bg, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg]
-
-        
-        ]
-
-        Alien_Imposter = [
-
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, ew, ew, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, ey, ew, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, ol, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, ol, gc, gc, gc, gc, gc, gc, gc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, ol, ol, ol, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, jc, jc, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, hd, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, ol, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, ol, bg, ol, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, ol, ol, bg, ol, hd, hd, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, ol, ol, ol, ol, bg, bg, ol, ol, ol, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
-            [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg]
+        ]  
 
 
 
 
-        ]
+        l = randint(0,1000)
+        type = "will decide"
+        if l > 750:
+            # shoes
+            type = "shoe"
 
+            td = randint(0,1000)
+            if td >= 500:
+                print("red shoes")
+            elif 500 > td >= 100:
+                print("blue shoes")
+            elif 100 > td >= 25:
+                print("green shoes")
+            elif 10 > td >= 0:
+                print("golden shoes")
+
+        elif 750 >= l > 500:
+            # clothes
+            type = "cloth"
+
+            td = randint(0,1000)
+            if td >= 500:
+                print("red shoes")
+            elif 500 > td >= 100:
+                print("blue shoes")
+            elif 100 > td >= 25:
+                print("green shoes")
+            elif 10 > td >= 0:
+                print("golden shoes")
+
+        elif 500 >= l > 250:
+            # hat
+            type = "hat"
+
+            td = randint(0,1000)
+            if td >= 500:
+                print("red shoes")
+            elif 500 > td >= 100:
+                print("blue shoes")
+            elif 100 > td >= 25:
+                print("green shoes")
+            elif 10 > td >= 0:
+                print("golden shoes")
+
+        elif 250 >= l:
+            # hands    
+            type = "hand"
+
+            td = randint(0,1000)
+            if td >= 500:
+                print("red shoes")
+            elif 500 > td >= 100:
+                print("blue shoes")
+            elif 100 > td >= 25:
+                print("green shoes")
+            elif 10 > td >= 0:
+                print("golden shoes")
 
 
         
+                     
+
         g = randint(0,1000)
-
-        if g > 250:
-            # if random number is 251 - 1000 >> basic imposter
-            pixels = Basic_Imposter
-            p = "Basic"
-        elif 250 >= g > 100:
-            # 101 - 250 >> devil
-            pixels = Devil_Imposter
-            p = "Devil"
-        elif 100 >= g > 40:
-            # 41 - 100 >> crazygoggle
-            pixels = CrazyGoggle_Imposter
-            p = "CrazyGoggle"
-        elif 40 >= g > 5:
-            # 6 - 40 >> Angel
-            pixels = Angel_Imposter
-            p = "Angel"
-        else:
-            # if random number is 5 or less >> Alien!!
-            pixels = Alien_Imposter
-            p = "Alien"
+        pixels = Basic_Imposter
+            
 
         # convert the pixels into an array using numpy
         array = np.array(pixels, dtype=np.uint8)
